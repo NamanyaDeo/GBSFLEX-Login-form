@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form y</title>
+    <link rel="stylesheet" href="dp.css">
+</head>
+<body>
+    <div id="heading1">
+        <h1 id=title>Deo'S Survey Form</h1>
+        <p id="description">We love to know about which technology and tools software engineers are using world wide! Each and every Developers opinions are very precious to us!</p>
+        </div>
+        <div id="main">
+            <form id="survey-form">
+            <div id="input-fields">
+                <label for="name" id="name-label"><strong>Name:</strong></label>
+                <input type="text" id="name" name="name" class="form" required placeholder="Full Name"><br>
+                <br>
+                <label id="email-label"><strong>E-mail:</strong></label>
+                <input type="text" id="email" name="email" class="form" required placeholder="e.g@gmail.com"><br>
+                <br>
+                <label for="password" id="password-label"><strong>Password:</strong></label>
+                <input id="text" type="password" name="password" class="form" required placeholder="enter your valid password"><br>
+                <br> 
+                <label for="Age" id="age-label"><strong>Age:</strong></label>
+                <input type="number" id="number" min="18" max="75" class="form" required placeholder="18+"><br>
+                <br>
+                <div id="dropdown-div"><br>
+                <label id="dropdown-label"><strong>Racing cars you are<em> expert</em> at: </strong></label><br>
+                <select name="dropdown-div" id="dropdown-div">
+                    <option value="ORIGIN">None</option>
+                    <option value="AMERICAN">Ford</option>
+                    <option value="GERMANY">Benze</option>
+                    <option value="JAPAN">Toyota</option>
+                    <option value="JAPAN">Subalu</option>
+                    <option value="AMERICAN">Lexus</option>
+                    </select>
+                </div>
+                <div id="button-area">
+                    <br>
+                   <label id="job-label"><b>which best option describes your current role :</b></label><br>
+                   <input type="radio" class="radio-inline" name="gender" value="employed" checked> Full-time job holder.(Employed)<br>
+                   <input type="radio" class="radio-inline" name="gender" value="freelancer"> Part-time job holder.(Freelancer)<br>
+                   <input type="radio" class="radio-inline" name="gender" value="applier"> Looking for a job.(Applier)<br>
+                   <input type="radio" class="radio-inline" name="gender" value="unemployed"> I am a student.(Unemployed)
+                 </div>
+                 <div id="dropdown-div">
+                <label id="dropdown-label"><strong>Latest technology you are using.</strong></label><br>
+                 <select name="dropdown-div" id="dropdown-div">
+                    <option value="C+">C+</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="Py">Python</option>
+                    <option value="html">html</option>
+                    <option value="C#">C#</option>
+                    <option value="Java">Java</option>
+                 </select>
+                 </div>
+                 <div id="Job status">
+                    <label id="Job status">Job status</label>
+                 <div id="button-area">
+                    <input type="checkbox" class="radio-inline" name="gender" value="student">Student<br>
+                    <input type="checkbox" class="radio-inline" name="gender" value=""unemployed>Unemployed<br>
+                    <input type="checkbox" class="radio-inline" name="gender" value="Self-employed" checked>Self-employed<br>
+                    <input type="checkbox" class="radio-inline" name="gender" value="Retired">Retired
+                 </div>
+                 <div id="end">Do have any comment</div>
+                 <textarea name="" id=""></textarea><br>
+                 <button type="Submit">Submit</button>
+                 <input type="Reset" value="Reset">
+                 </div>
+</body>
+</html>

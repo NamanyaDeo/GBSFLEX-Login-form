@@ -1,0 +1,38 @@
+
+heading {
+    max-width: 750px;
+    margin: 4rem auto;
+    padding: .6rem;
+  }
+  body {
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    
+  }
+   #submit {
+    cursor: pointer;
+    font-size: 30px;
+    background-color: green;
+    color: brown;
+    border-radius: 5px;
+  }
+
+  #Reset {
+    cursor: pointer;
+    font-size: 30px;
+    background-color: aqua;
+    color: brown;
+  }
+  
+  #title {
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    color: whitesmoke;
+
+  }
+  #main {
+    padding: 10% 10%;
+  }
