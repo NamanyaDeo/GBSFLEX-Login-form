@@ -21,3 +21,25 @@ if(email===''){
 } 
 else if(!emailPattern.test(email)){errorMessages.push('email is invalid');
 }
+
+//validating age
+if(Age ==='' || isNaN(Age)){errorMessages.push('Age is required and must be a number');
+}
+else if(Age < 18|| Age > 75) {
+    errorMessages.push('Age must be between 12 and 74.');
+} 
+//Validating password
+if(Password ===''){
+    errorMessages.push('Password is required.');
+} else if (Password.length<6) {
+    errorMessages.push('Password must be 6 characters long');
+}
+
+//disolay error messages or submit the form
+if(errorMessages.length>0) {
+    alert(errorMessages.join('\n'));
+}else {
+    alert('Form submitted successfully!');
+}
+
+});
